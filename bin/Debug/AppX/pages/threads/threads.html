@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>splitPage</title>
+
+    <!-- Ссылки WinJS -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/threads/threads.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+    <script src="/pages/threads/threads.js"></script>
+</head>
+<body>
+    <!-- Этот шаблон используется для отображения каждого элемента из представления ListView, объявленного ниже. -->
+    <!--<div class="itemtemplate" data-win-control="winjs.binding.template" style="display: none;">
+        <div class="item" style="background-color: #ff6600;">
+            <div class="item-overlay">
+                <h4 class="item-title" data-win-bind="textcontent: postname"></h4>
+                <h6 class="item-subtitle win-type-ellipsis" data-win-bind="textcontent: postnum"></h6>
+            </div>
+        </div>
+    </div>-->
+
+
+    <!--header template for each group-->
+    <div id="headerTemplate" data-win-control="WinJS.Binding.Template" 
+    style="display: none">
+    <div class="simpleHeaderItem">
+        <h2 class="win-type-ellipsis" data-win-bind="innerHTML: header"></h2>
+    </div>
+</div>
+
+
+    <!-- Этот шаблон используется для отображения каждого элемента из представления ListView, объявленного ниже. -->
+    <div class="itemtemplate" id="postTemplate" data-win-control="WinJS.Binding.Template" style="display: none;">
+        <div class="post" data-win-bind="className:isOpPost">
+            <div class="post-image">
+                <img class="post-thumbnail" src="#" data-win-bind="src:postImageThumbnail; style.display: postImageExists" />
+            </div>
+            <div class="post-header">
+                <h5 class="post-number" data-win-bind="textContent: postNum"></h5>
+                <h5 class="post-name" data-win-bind="innerHTML: postName"></h5>
+            </div>
+            <div class="post-comment" data-win-bind="innerHTML: postComment">
+                Comment should be here
+            </div>
+
+            <div class="post-footer">
+            </div>
+        </div>
+    </div>
+     
+     
+    
+      <!-- Содержимое, которое будет загружено и отображено. -->
+    <div class="itemspage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <button class="refresh-threads" aria-label="Refresh" type="button"></button>
+			<progress class="win-ring refresh-thread-loading" aria-label="Loading..."></progress>
+
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" data-win-bind="textContent:boardAbbr">2ch.browser</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div class="itemslist-threads win-selectionstylefilled" aria-label="List of groups" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'none' }"></div>
+			<h2 id="messageBox" class="itemlist post" data-win-bind="style.display:display;innerHTML:message">Unable to load page</h2>
+        </section>
+    </div>
+</body>
+</html>

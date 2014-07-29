@@ -1,0 +1,13 @@
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bin\Debug\resources.pri
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bin\Debug\AppxManifest.xml
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bin\Debug\2ch Browser.build.appxrecipe
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bld\Debug\priconfig.xml
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bld\Debug\layout.resfiles
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bld\Debug\resources.resfiles
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bld\Debug\pri.resfiles
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bld\Debug\LanguageQualifiers.txt
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bld\Debug\ProjectArchitectures.txt
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bld\Debug\priconfig.xml.intermediate
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bld\Debug\layout.resfiles.intermediate
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bld\Debug\resources.resfiles.intermediate
+C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bld\Debug\pri.resfiles.intermediate

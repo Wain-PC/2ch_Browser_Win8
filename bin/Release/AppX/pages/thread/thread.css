@@ -1,0 +1,364 @@
+﻿.itemspage section[role=main] {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+	
+}
+
+#messageBox {
+	-ms-grid-column: 5;
+     position:absolute;
+	 top:45%;
+	 width:100%;
+	 height:100px;
+	 margin:0 auto;
+	 display:none;
+	 text-align:center;
+	}
+	
+	/*full post */
+
+.itemspage .itemslist-fullpost {
+	z-index:9999;
+	height: 100%;
+    position: absolute;
+    width: 100%;
+	top:-100%;
+	opacity:1;
+	}
+	
+	.itemspage .itemslist-fullpost .post {
+		font-size:10pt;
+		font-weight:500;
+		line-height:1.2;
+		display: -ms-grid;
+        -ms-grid-columns: auto 20px 1fr;
+        -ms-grid-rows: 20px 1fr 20px;
+		-ms-overflow-style:none;
+		overflow-x:hidden;
+        width: 600px;
+		height: 100px;
+    }
+	
+	
+	.itemspage .itemslist-fullpost .post:hover {
+		background-color:rgb(221,221,221);
+		}
+
+    .itemspage .itemslist-fullpost .oppost {
+        width: 600px;
+		height:200px;
+    }
+	
+	.itemspage .itemslist-fullpost .post .post-header {
+		-ms-grid-row:1;
+		-ms-grid-column:3;
+			display:-ms-grid;
+            -ms-grid-rows: 1fr;
+			-ms-grid-columns:1fr 1fr;
+        }
+	
+	.itemspage .itemslist-fullpost .post .post-header .post-number {
+            -ms-grid-row: 1;
+			-ms-grid-column:1;
+        }
+		
+		.itemspage .itemslist-fullpost .post .post-header .post-name {
+            -ms-grid-row: 1;
+			-ms-grid-column:2;
+        }
+
+        .itemspage .itemslist-fullpost .post .post-image {
+			-ms-grid-row-span:3;
+            -ms-grid-row: 1;
+			-ms-grid-column:1;
+        }
+		
+		.itemspage .itemslist-fullpost .post .post-image .post-thumbnail{
+            max-height:100px;
+			max-width:200px;
+        }
+		
+		.itemspage .itemslist-fullpost .post .post-comment {
+            -ms-grid-row: 2;
+			-ms-grid-column:3;
+			min-height:60px;
+			max-height:110px;
+			overflow:hidden;
+			text-overflow:ellipsis;
+			padding-right:10px;
+			text-align:justify;
+			text-justify:auto;
+	}
+	
+		
+		.itemspage .itemsList-fullpost .post .post-footer {
+            -ms-grid-row: 3;
+			-ms-grid-column-span:2;
+			-ms-grid-column:1;
+        }
+	
+	/*end full post*/
+	
+	
+
+	/* default styles */
+	
+	
+    .fragment header[role=banner] {
+        /* Определить таблицу со столбцами для кнопки "Назад" и заголовка страницы. */
+        -ms-grid-columns: 30px 72px 72px 1fr;
+        -ms-grid-rows: 1fr;
+        display: -ms-grid;
+    }
+
+        .fragment header[role=banner] .win-backbutton {
+            -ms-grid-column: 2;
+            margin-top: 59px;
+        }
+		
+		.fragment header[role=banner] .refresh-thread {
+            -ms-grid-column: 3;
+            margin-top: 59px;
+        }
+		
+		/* refresh thread button and loading style */
+		.refresh-thread {
+    display: inline-block;
+    min-width: 0;
+    min-height: 0;
+    background-clip: border-box;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0;
+    text-align: center;
+
+    /* Normal sizing. */
+    width: 41px;
+    height: 41px;
+    font-size: 14pt;
+    line-height: 37px; /* line-height must match the content box height. */
+    vertical-align: baseline;
+}
+.refresh-thread:hover, .refresh-thread:hover:active {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+}
+.refresh-thread::before {
+    font-family: "Segoe UI Symbol";
+    font-weight: normal;
+    content: "\E117";
+    vertical-align: 50%;
+}
+
+progress.refresh-thread-loading {
+	-ms-grid-column: 3;
+    margin-top: 59px;
+	display:none;
+	width:41px;
+	height:41px;
+	}
+
+progress.refresh-thread-loading:indeterminate {
+color:black;
+}
+/*default styles now */
+        .fragment header[role=banner] .titlearea {
+            -ms-grid-column: 4;
+            margin-top: 37px;
+        }
+
+
+/* Этот селектор предназначен для того, чтобы не допустить для ui-dark/light.css перезапись изменений 
+           в .win-surface. */
+.itemspage .itemslist-thread .win-horizontal.win-viewport .win-surface {
+    margin-bottom: 60px;
+    margin-left: 115px;
+    margin-right: 115px;
+    margin-top: 155px;
+}
+
+.itemspage .itemslist-thread {
+    height: 110%;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.itemspage .win-listview .win-groupheader {  
+	white-space:nowrap;
+} 
+
+
+.win-listview .win-container:not(.win-footprint)
+{
+	background-color: rgb(221,221,221);
+	border:1px solid rgb(191,191,191);
+}
+ 
+
+    .itemspage .itemslist-thread .post {
+		font-size:10pt;
+		font-weight:500;
+		line-height:1.2;
+		display: -ms-grid;
+        -ms-grid-columns: auto 20px 1fr;
+        -ms-grid-rows: 20px 1fr 20px;
+		-ms-overflow-style:none;
+		overflow:hidden;
+        width: 600px;
+		height: 100px;
+    }
+	
+	
+	.itemspage .itemslist-thread .post:hover {
+		background-color:rgb(221,221,221);
+		}
+
+    .itemspage .itemslist-thread .oppost {
+        width: 600px;
+		height:200px;
+    }
+	
+	.itemspage .itemslist-thread .post .post-header {
+		-ms-grid-row:1;
+		-ms-grid-column:3;
+			display:-ms-grid;
+            -ms-grid-rows: 1fr;
+			-ms-grid-columns:1fr 1fr;
+        }
+	
+	.itemspage .itemslist-thread .post .post-header .post-number {
+            -ms-grid-row: 1;
+			-ms-grid-column:1;
+        }
+		
+		.itemspage .itemslist-thread .post .post-header .post-name {
+            -ms-grid-row: 1;
+			-ms-grid-column:2;
+        }
+
+        .itemspage .itemslist-thread .post .post-image {
+			-ms-grid-row-span:3;
+            -ms-grid-row: 1;
+			-ms-grid-column:1;
+        }
+		
+		.itemspage .itemslist-thread .post .post-image .post-thumbnail{
+            max-height:100px;
+			max-width:200px;
+        }
+		
+		.itemspage .itemslist-thread .oppost .post-image .post-thumbnail{
+            max-height:250px;
+			max-width:300px;
+			vertical-align:middle;
+        }
+		
+		.itemspage .itemslist-thread .post .post-comment {
+            -ms-grid-row: 2;
+			-ms-grid-column:3;
+			min-height:60px;
+			max-height:110px;
+			overflow:hidden;
+			text-overflow:ellipsis;
+			padding-right:10px;
+			text-align:justify;
+			text-justify:auto;
+	}
+	
+		
+		.itemspage .itemslist-thread .post .post-footer {
+            -ms-grid-row: 3;
+			-ms-grid-column:3;
+			-ms-grid-column-span:3;
+			
+			display:-ms-grid;
+			-ms-grid-columns: auto 20px 1fr;
+        }
+		
+		.itemspage .itemslist-thread .post .post-footer .post-answers {
+			-ms-grid-column:3;	
+        }
+
+        
+@media screen and (-ms-view-state: fullscreen-landscape), screen and (-ms-view-state: fullscreen-portrait), screen and (-ms-view-state: filled) {
+    
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) and (-ms-high-contrast), screen and (-ms-view-state: fullscreen-portrait) and (-ms-high-contrast), screen and (-ms-view-state: filled) and (-ms-high-contrast) {
+    .itemspage .itemslist-thread .item .item-overlay {
+        color: WindowText;
+    }
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .itemspage section[role=main] {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+    }
+
+    .itemspage .itemslist-thread {
+        margin-top: 0;
+    }
+
+        .itemspage .itemslist-thread .win-vertical.win-viewport .win-surface {
+            margin-bottom: 30px;
+        }
+
+        .itemspage .itemslist-thread .win-container {
+            margin-bottom: 15px;
+            margin-left: 13px;
+            margin-right: 35px;
+            padding: 7px;
+        }
+
+        .itemspage .itemslist-thread.win-rtl .win-container {
+            margin-left: 21px;
+            margin-right: 27px;
+        }
+
+        .itemspage .itemslist-thread .item {
+            -ms-grid-columns: 60px 10px 1fr;
+            -ms-grid-rows: 1fr;
+            display: -ms-grid;
+            height: 60px;
+            width: 272px;
+        }
+
+            .itemspage .itemslist-thread .item .item-image, .itemspage .itemslist-thread .item:hover .item-image {
+                -ms-grid-column: 1;
+                -ms-grid-row-span: 1;
+                height: 60px;
+                width: 60px;
+            }
+
+            .itemspage .itemslist-thread .item .item-overlay {
+                -ms-grid-column: 3;
+                -ms-grid-row: 1;
+                -ms-grid-row-align: stretch;
+                background: transparent;
+                display: inline-block;
+                padding: 0;
+            }
+
+                .itemspage .itemslist-thread .item .item-overlay .item-title {
+                    margin-top: 4px;
+                    max-height: 40px;
+                    width: 202px;
+                }
+
+                .itemspage .itemslist-thread .item .item-overlay .item-subtitle {
+                    opacity: 0.6;
+                    width: 202px;
+                }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .itemspage .itemslist-thread .win-horizontal.win-viewport .win-surface {
+        margin-left: 95px;
+        margin-right: 95px;
+    }
+}

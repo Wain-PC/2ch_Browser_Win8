@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VAIO_LAPTOP</Machine>
+    <WindowsUser>Wain</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>9FC678A5C1D0014001DBCF67A698DFF307056045FE96E9B215B99E2CA1E34A9F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8483fe67-f734-4745-8825-6a1fe00c9782_1.0.0.0_neutral__jte8h65bc2ns6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>8483fe67-f734-4745-8825-6a1fe00c9782_jte8h65bc2ns6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>8483fe67-f734-4745-8825-6a1fe00c9782</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Wain</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-31T20:16:31.920</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-03-30T16:17:59.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\pages\boards\boards.css">
+      <PackagePath>pages\boards\boards.css</PackagePath>
+      <Modified>2013-03-31T20:30:33.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\pages\threads\threads.css">
+      <PackagePath>pages\threads\threads.css</PackagePath>
+      <Modified>2013-03-31T19:29:35.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\pages\thread\thread.css">
+      <PackagePath>pages\thread\thread.css</PackagePath>
+      <Modified>2013-03-31T19:41:06.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T14:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T14:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T14:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T14:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\images\yoba.png">
+      <PackagePath>images\yoba.png</PackagePath>
+      <Modified>2013-03-30T20:29:22.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\js\boardsList.js">
+      <PackagePath>js\boardsList.js</PackagePath>
+      <Modified>2013-03-28T22:08:07.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+      <Modified>2013-04-02T10:00:40.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-03-27T20:04:52.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2013-03-27T18:24:30.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\pages\boards\boards.js">
+      <PackagePath>pages\boards\boards.js</PackagePath>
+      <Modified>2013-04-02T10:00:42.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\pages\threads\threads.js">
+      <PackagePath>pages\threads\threads.js</PackagePath>
+      <Modified>2013-03-31T19:36:15.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\pages\thread\thread.js">
+      <PackagePath>pages\thread\thread.js</PackagePath>
+      <Modified>2013-04-02T11:33:05.180</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\pages\boards\boards.html">
+      <PackagePath>pages\boards\boards.html</PackagePath>
+      <Modified>2013-03-31T19:42:33.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\pages\threads\threads.html">
+      <PackagePath>pages\threads\threads.html</PackagePath>
+      <Modified>2013-03-30T20:10:20.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-03-31T20:30:33.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\pages\thread\thread.html">
+      <PackagePath>pages\thread\thread.html</PackagePath>
+      <Modified>2013-03-31T12:09:30.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wain-_000\Desktop\DEV\Windows 8\2ch Browser\2ch Browser\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-03-31T20:16:31.872</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

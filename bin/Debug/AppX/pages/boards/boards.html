@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>itemsPage</title>
+
+    <!-- Ссылки WinJS -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/boards/boards.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+    <script src="/pages/boards/boards.js"></script>
+</head>
+<body>
+    <!-- Этот шаблон используется для отображения каждого элемента из представления ListView, объявленного ниже. -->
+    <div class="itemtemplate" data-win-control="WinJS.Binding.Template" style="display: none;">
+        <div class="item">
+            <div class="item-overlay">
+                <h4 class="item-title" data-win-bind="textContent: title"></h4>
+                <h6 class="item-subtitle win-type-ellipsis" data-win-bind="textContent: abbr"></h6>
+            </div>
+        </div>
+    </div>
+
+
+    <!--header template for each group-->
+    <div id="headerTemplate" data-win-control="WinJS.Binding.Template" 
+    style="display: none">
+    <div class="simpleHeaderItem">
+        <h1 data-win-bind="innerText: group"></h1>
+    </div>
+</div>
+
+    <!-- Содержимое, которое будет загружено и отображено. -->
+    <div class="itemspage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">2ch Browser</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div class="itemslist-boards win-selectionstylefilled" aria-label="List of groups" data-win-control="WinJS.UI.ListView" data-win-options="{tapBehavior: toggleSelect }" style="position: relative;"></div>
+        </section>
+    </div>
+</body>
+</html>
